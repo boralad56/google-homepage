@@ -7,7 +7,7 @@
     padding: 100px 100px 0 60px;
 }
 .searchBox {
-    height: 30px;
+    height: 25px;
     width: 400px;
 }
 .submitSearch {
@@ -24,19 +24,33 @@
     /*Inlines the search buttons*/
 }
 .searchForm input[type=submit] {
-    font: bold 14px/27px Arial;
+    font: bold 12px/27px Arial;
     text-align: center;
     color: #444;
+    border-radius: 2px;
+    width: 130px;
+    margin-left: 60px;
+    
+}
+
+.searchForm input[name=searchLucky] {
+    margin-left: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 ;
     padding: 0;
     overflow: hidden;
     margin-bottom: 10px;
     border-color: gainsboro;
     border-style: solid;
     border-width: 1px;
+    text-align: center;
+
 }
 nav li {
     float: left;
@@ -45,4 +59,18 @@ nav li a {
     display: inline-block;
     width: 70px;
     font-size: 14px;
+    color:darkgray;
+    text-decoration: none;
+}
+
+.footer {
+     margin: 310px 0 0 0 ;   
+     background-color: whitesmoke;
+     
+
+}
+.footer a {
+    width: 100px;
+    color:rgb(120,120,120) ;
+    height: 40px;
 }
